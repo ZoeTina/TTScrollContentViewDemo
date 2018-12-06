@@ -1,0 +1,6 @@
+framework module Pods_TTScrollContentViewDemo {
+  umbrella header "Pods-TTScrollContentViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

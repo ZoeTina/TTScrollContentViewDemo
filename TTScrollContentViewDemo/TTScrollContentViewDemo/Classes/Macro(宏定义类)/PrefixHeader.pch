@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  MerchantVersion
+//
+//  Created by 寜小陌 on 2018/1/17.
+//  Copyright © 2018年 寜小陌. All rights reserved.
+//
+
+#ifdef __OBJC__
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+/// 颜色类
+#import "AppConstant.h"
+#import "Masonry.h"
+
+
+#define NetworkReachabilityStatus @"NetworkReachabilityStatus"
+
+/// 弹窗类
+
+//#import "NSObject+LZToast.h"
+
+#endif /* PrefixHeader_pch */
+
+#endif
