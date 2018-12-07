@@ -32,6 +32,11 @@
     TTSegmentTitleView *titleView2 = [[TTSegmentTitleView alloc]initWithFrame:CGRectMake(0, 124, CGRectGetWidth(self.view.bounds), 50) titles:@[@"全部",@"服饰穿搭",@"生活百货",@"美食吃货",@"美容护理",@"母婴儿童",@"数码家电",@"其他"] delegate:nil indicatorType:0];
     [self.view addSubview:titleView2];
     titleView2.backgroundColor = kColorWithRGB(244, 244, 244);
+ 
+    self.titleView.indicatorColor = [UIColor blueColor];
+    [self.view addSubview:_titleView];
+    self.titleView.backgroundColor = [UIColor lightGrayColor];
+    
     //demo3
     TTSegmentTitleView *titleView3 = [[TTSegmentTitleView alloc]initWithFrame:CGRectMake(0, 194, CGRectGetWidth(self.view.bounds), 50) titles:@[@"全部",@"服饰穿搭",@"生活百货",@"美食吃货",@"美容护理",@"母婴儿童",@"数码家电",@"其他"] delegate:nil indicatorType:2];
     titleView3.indicatorExtension = 6;
@@ -51,6 +56,7 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.backgroundColor = [UIColor blackColor];
     [btn setTitle:@"pageContentView" forState:UIControlStateNormal];
+
     [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
@@ -71,6 +77,11 @@
         make.top.equalTo(btn.mas_bottom).offset(20);
         make.centerX.height.width.equalTo(btn);
     }];
+    btn.frame = CGRectMake(50, 400, 50, 30);
+    [btn sizeToFit];
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
 }
 
 - (void)click {
@@ -82,6 +93,5 @@
     TTFirstViewController *vc = [[TTFirstViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
 
 @end

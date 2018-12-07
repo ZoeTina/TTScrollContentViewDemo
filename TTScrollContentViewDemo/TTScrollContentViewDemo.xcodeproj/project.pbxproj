@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		6EC45A88FCFED2E41A681F6A /* Pods_TTScrollContentViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C2104D95D9630C1CEF9307 /* Pods_TTScrollContentViewDemo.framework */; };
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 		E789028321B8F87A008F1BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E789028221B8F87A008F1BA3 /* AppDelegate.m */; };
 		E789028B21B8F87D008F1BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E789028A21B8F87D008F1BA3 /* Assets.xcassets */; };
 		E789028E21B8F87D008F1BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E789028C21B8F87D008F1BA3 /* LaunchScreen.storyboard */; };
@@ -17,6 +20,7 @@
 		E78902B421B8FF32008F1BA3 /* TTPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78902AD21B8FF32008F1BA3 /* TTPageContentView.m */; };
 		E78902B521B8FF32008F1BA3 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78902AF21B8FF32008F1BA3 /* ChildViewController.m */; };
 		E78902B621B8FF32008F1BA3 /* TTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78902B121B8FF32008F1BA3 /* TTMainViewController.m */; };
+<<<<<<< HEAD
 		E78902D021B91556008F1BA3 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78902C321B91556008F1BA3 /* WMPageController.m */; };
 		E78902D121B91556008F1BA3 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E78902CA21B91556008F1BA3 /* WMMenuItem.m */; };
 		E78902D221B91556008F1BA3 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78902CB21B91556008F1BA3 /* WMScrollView.m */; };
@@ -36,6 +40,11 @@
 		09C2104D95D9630C1CEF9307 /* Pods_TTScrollContentViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTScrollContentViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8568C689D33B94E5BF3B01 /* Pods-TTScrollContentViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTScrollContentViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTScrollContentViewDemo/Pods-TTScrollContentViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C9D4B0ECBE0F182A1EADC4EB /* Pods-TTScrollContentViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTScrollContentViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTScrollContentViewDemo/Pods-TTScrollContentViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+=======
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 		E789027E21B8F879008F1BA3 /* TTScrollContentViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTScrollContentViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E789028121B8F87A008F1BA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E789028221B8F87A008F1BA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,7 @@
 		E78902AF21B8FF32008F1BA3 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 		E78902B021B8FF32008F1BA3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		E78902B121B8FF32008F1BA3 /* TTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMainViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		E78902C321B91556008F1BA3 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
 		E78902C421B91556008F1BA3 /* WMPageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageConst.h; sourceTree = "<group>"; };
 		E78902C621B91556008F1BA3 /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
@@ -82,6 +92,8 @@
 		E78902EF21B91A67008F1BA3 /* TTThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTThirdViewController.m; sourceTree = "<group>"; };
 		E78902F221B9208B008F1BA3 /* TTRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTRootViewController.h; sourceTree = "<group>"; };
 		E78902F321B9208B008F1BA3 /* TTRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRootViewController.m; sourceTree = "<group>"; };
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +101,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				6EC45A88FCFED2E41A681F6A /* Pods_TTScrollContentViewDemo.framework in Frameworks */,
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		446AE64961390294F938A24C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,13 +129,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 		E789027521B8F879008F1BA3 = {
 			isa = PBXGroup;
 			children = (
 				E789028021B8F879008F1BA3 /* TTScrollContentViewDemo */,
 				E789027F21B8F879008F1BA3 /* Products */,
+<<<<<<< HEAD
 				DDB10DE47232D27823111CA6 /* Pods */,
 				446AE64961390294F938A24C /* Frameworks */,
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +169,7 @@
 		E78902A521B8FF32008F1BA3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				E78902F121B91B84008F1BA3 /* Base */,
 				E78902E421B919D0008F1BA3 /* ChildVC */,
 				E78902D621B9159A008F1BA3 /* 效果二 */,
@@ -160,6 +182,14 @@
 				E78902B021B8FF32008F1BA3 /* TestViewController.h */,
 				E78902A621B8FF32008F1BA3 /* TestViewController.m */,
 				E78902AE21B8FF32008F1BA3 /* TTMainViewController.h */,
+=======
+				E78902A821B8FF32008F1BA3 /* TTScrollContentView */,
+				E78902A621B8FF32008F1BA3 /* TestViewController.m */,
+				E78902A721B8FF32008F1BA3 /* ChildViewController.h */,
+				E78902AE21B8FF32008F1BA3 /* TTMainViewController.h */,
+				E78902AF21B8FF32008F1BA3 /* ChildViewController.m */,
+				E78902B021B8FF32008F1BA3 /* TestViewController.h */,
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 				E78902B121B8FF32008F1BA3 /* TTMainViewController.m */,
 			);
 			path = Classes;
@@ -177,6 +207,7 @@
 			path = TTScrollContentView;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		E78902C221B91556008F1BA3 /* WMPageController */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +286,8 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,11 +295,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E789029421B8F87D008F1BA3 /* Build configuration list for PBXNativeTarget "TTScrollContentViewDemo" */;
 			buildPhases = (
+<<<<<<< HEAD
 				885E6A58C7E3EE1EE3D7A323 /* [CP] Check Pods Manifest.lock */,
 				E789027A21B8F879008F1BA3 /* Sources */,
 				E789027B21B8F879008F1BA3 /* Frameworks */,
 				E789027C21B8F879008F1BA3 /* Resources */,
 				4A3E9C9A79EFDA6BC0EEABA8 /* [CP] Embed Pods Frameworks */,
+=======
+				E789027A21B8F879008F1BA3 /* Sources */,
+				E789027B21B8F879008F1BA3 /* Frameworks */,
+				E789027C21B8F879008F1BA3 /* Resources */,
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 			);
 			buildRules = (
 			);
@@ -315,13 +354,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E789028E21B8F87D008F1BA3 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
 				E78902D521B91556008F1BA3 /* bg.jpg in Resources */,
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 				E789028B21B8F87D008F1BA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+<<<<<<< HEAD
 /* Begin PBXShellScriptBuildPhase section */
 		4A3E9C9A79EFDA6BC0EEABA8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -361,11 +404,14 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 /* Begin PBXSourcesBuildPhase section */
 		E789027A21B8F879008F1BA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				E78902F421B9208B008F1BA3 /* TTRootViewController.m in Sources */,
 				E78902B421B8FF32008F1BA3 /* TTPageContentView.m in Sources */,
 				E78902B221B8FF32008F1BA3 /* TestViewController.m in Sources */,
@@ -385,6 +431,15 @@
 				E78902EA21B91A35008F1BA3 /* TTFirstTableViewController.m in Sources */,
 				E78902D221B91556008F1BA3 /* WMScrollView.m in Sources */,
 				E78902ED21B91A57008F1BA3 /* TTSecondViewController.m in Sources */,
+=======
+				E78902B421B8FF32008F1BA3 /* TTPageContentView.m in Sources */,
+				E78902B221B8FF32008F1BA3 /* TestViewController.m in Sources */,
+				E789029121B8F87D008F1BA3 /* main.m in Sources */,
+				E789028321B8F87A008F1BA3 /* AppDelegate.m in Sources */,
+				E78902B321B8FF32008F1BA3 /* TTSegmentTitleView.m in Sources */,
+				E78902B521B8FF32008F1BA3 /* ChildViewController.m in Sources */,
+				E78902B621B8FF32008F1BA3 /* TTMainViewController.m in Sources */,
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,12 +571,18 @@
 		};
 		E789029521B8F87D008F1BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = C9D4B0ECBE0F182A1EADC4EB /* Pods-TTScrollContentViewDemo.debug.xcconfig */;
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y87R76ZG57;
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "TTScrollContentViewDemo/Classes/Macro(宏定义类)/PrefixHeader.pch";
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 				INFOPLIST_FILE = TTScrollContentViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,12 +596,18 @@
 		};
 		E789029621B8F87D008F1BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 0A8568C689D33B94E5BF3B01 /* Pods-TTScrollContentViewDemo.release.xcconfig */;
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y87R76ZG57;
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "TTScrollContentViewDemo/Classes/Macro(宏定义类)/PrefixHeader.pch";
+=======
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 				INFOPLIST_FILE = TTScrollContentViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

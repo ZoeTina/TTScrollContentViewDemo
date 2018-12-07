@@ -7,7 +7,11 @@
 		<key>TTScrollContentViewDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>2</integer>
+=======
+			<integer>0</integer>
+>>>>>>> 1b0531994e268978919c4697bf0555287c726001
 		</dict>
 	</dict>
 </dict>
